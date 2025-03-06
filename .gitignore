@@ -1,0 +1,17 @@
+# Carpetas y archivos a ignorar
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Entorno virtual
+alexa-env/
+.env
+pyvenv.cfg
+
+# Dependencias
+.DS_Store
+.idea/
+.vscode/
