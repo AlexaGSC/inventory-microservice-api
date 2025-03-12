@@ -1,17 +1,16 @@
-# Carpetas y archivos a ignorar
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.sqlite3
-*.log
 
-# Entorno virtual
+# Entornos virtuales
 alexa-env/
-.env
-pyvenv.cfg
+venv/
+env/
 
-# Dependencias
-.DS_Store
-.idea/
-.vscode/
+# Configuración sensible
+.env
+
+# Logs
+*.log
